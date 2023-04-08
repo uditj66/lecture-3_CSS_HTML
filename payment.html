@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment | adarsh balika</title>
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="navbrand"><a class="link" href="index.html"></a>CODE with ME</div>
+        <ul class="list__nonbullet navpills">
+            <li class="list__itemin__line"><a class="link " href="index.html">Home</a></li>
+            <li class="list__itemin__line"><a class="link" href="project.html">Projects</a></li>
+            <li class="list__itemin__line"><a class="link" href="blogs.html">Blogs</a></li>
+            <li class="list__itemin__line"><a class="link" href="contactus.html">Contact</a></li>
+            <li class="list__itemin__line"><a class="link link__active" href="/">Payment</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="hero"><img class="hero__img" style="max-width: 450px; max-height: 450px;"
+            src="/imagesused/paymentblue.svg" alt="blank">
+        <h1 class="hero__heading">Adarsh balika | <span class="hero__highlight">Payment Section</span></h1>
+    </header>
+
+    <div class="container__form">
+        <form action="">
+            <h1 class="heading">Billing</h1>
+            <hr>
+            <h3>Enter your details</h3>
+            <hr>
+            <p>Required fields are indicates as *</p>
+            <p>FullName*: <input type="text" name="fullname" placeholder="ABC XYZ" required></p>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>Male: <input type="radio" name="gender" id="male" required></p>
+                <p>Female:<input type="radio" name="gender" id="female" required></p>
+            </fieldset>
+            <p>Address*: <textarea name="address" id="address" cols="100" rows="5" required></textarea></p>
+            <p>Email*: <input type="email" name="email" id="email" placeholder="abc@xyz.com" required></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode" placeholder="xxxxxx"></p>
+            <p>Mobile no*: <input type="number" name="number" id="number" placeholder="xxxxxxxxx" required></p>
+            <p>Add photograph*: <input type="file" name="photo" id="photo" required></p>
+            <p> Create Password*: <input type="password" name="password" id="password" required></p>
+            <hr>
+            <h3>CARD DETAILS</h3>
+            <hr>
+            <P>Card type*: <select name="card_type" id="card_type" required>
+                    <option value="">--Select card type--</option>
+                    <option value="visa">VISA</option>
+                    <option value="mastercard">MASTERCARD</option>
+                    <option value="rupay">RUPAY</option>
+                    <option value="americanexpress">AMERICAN EXPRESS</option>
+                </select></P>
+            <p>Card no*: <input type="number" name="number_card" id="number_card" required></p>
+            <p>Expiry date*: <input type="date" name="expdate_card" id="expdate_card" required></p>
+            <p>Cvv*: <input type="password" name="cvv_card" id="cvv_card" required></p>
+            <p>Verify:</p>
+            <p>Card no:<input type="checkbox" name="credentals" id="credentials"></p>
+            <p>Expiry date:<input type="checkbox" name="credentals" id="credentials"></p>
+            <p>Cvv:<input type="checkbox" name="credentals" id="credentials"></p>
+            <p>Password<input type="checkbox" name="credentals" id="credentials"></p>
+            <input class="btn" type="submit" value="PAYNOW">
+            <input class="btn" type="reset" value="RESET">
+        </form>
+
+
+    </div>
+
+
+</body>
+
+</html>
